@@ -33,6 +33,7 @@ Set-Alias -Name fzgrep -Value Invoke-PsFzfRipgrep
 Set-Alias -Name git-status -Value Invoke-FuzzyGitStatus
 Set-Alias -Name scoop.sh -Value Invoke-FuzzyScoop
 Set-Alias -Name ls -Value Invoke-Eza
+Set-Alias -Name cat -Value bat
 Set-Alias -Name lg -Value lazygit
 
 # Initialize shell integrations.
