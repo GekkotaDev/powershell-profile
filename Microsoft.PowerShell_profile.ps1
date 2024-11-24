@@ -27,6 +27,7 @@ Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 Get-ChildItem "$ProfileRoot\Autocomplete" | Import-Module
 
 # Aliases
+Set-Alias -Name open -Value Invoke-Item
 Set-Alias -Name which -Value Get-Command
 Set-Alias -Name fzgrep -Value Invoke-PsFzfRipgrep
 Set-Alias -Name git-status -Value Invoke-FuzzyGitStatus
