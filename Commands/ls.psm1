@@ -3,5 +3,5 @@ function Invoke-Eza {
         $Options
     )
 
-    eza --git --git-repos --group-directories-last --hyperlink --header --icons --long --time-style="+%h %m %Y %H:%M:%S" $Options
+    eza --git --git-repos --group-directories-last --hyperlink --header --icons --long --time-style="+%h %m %Y %I:%M:%S %p  " $Options
 }
